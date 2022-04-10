@@ -1,0 +1,30 @@
+# 2 slaid, problemy
+
+
+stroka = "Google создаст специальную команду для поиска багов в особо важных приложениях."
+razdelit = len(stroka.split(' '))
+print(razdelit)
+
+stroka1 = "У вас есть строка 'Запуск Ethereum 2.0 состоится 1 декабря. На депозитный контракт внесено более 524 288 ETH'"
+razdelit1 = stroka1.split(' ')
+for n in razdelit1:
+    print(type(n))
+
+stroka2 = 'хакеры слили в сеть данные пакистанской энергетической компании k-Electric'
+zaglavnie = stroka2.title()
+print(zaglavnie)
+
+stroka3 = 'GitHub'
+razdelit_po_bukvam = list(stroka3)
+print(razdelit_po_bukvam)
+
+stroka4 = 'Ботнет IPStorm , в который ранее входили лишь Windows-машины, увеличился до 13 500 зараженных систем'
+zamenit = stroka4.replace("е", "3")
+print(zamenit)
+
+stroka5 = str.upper('хакеры слили в сеть данные'), str.lower('пакистанской энергетической компании')
+print(stroka5)
+
+stroka6 = True
+print(str(stroka6))
+
